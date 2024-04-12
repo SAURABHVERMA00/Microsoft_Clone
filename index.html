@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microsoft – Cloud, Computers, Apps & Gaming</title>
+    <!-- <link rel="canonical" href="https://www.microsoft.com/en-in"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container mx-auto">
+      <div class="navabar flex justify-between p-4">
+        <div class="flex items-center justify-center md:order-2">
+          <div class="hamburger inline-block cursor-pointer md:hidden">
+            <div class="line h-0.5 my-1 bg-black w-6"></div>
+            <div class="line h-0.5 my-1 bg-black w-6"></div>
+            <div class="line h-0.5 my-1 bg-black w-6"></div>
+          </div>
+          <div class="search md:hidden w-6 mx-5">
+            <img src="./image/search.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="logo text-center md:order-1 flex">
+          <div>
+            <img
+              src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+              alt=""
+              width="103rem"
+            />
+          </div>
+
+          <div
+            class="feature absolute md:static inset-0 w-fit -translate-x-96 md:mx-4 bg-gray-200 md:space-x-4 md:flex md:w-auto md:bg-white md:translate-x-0"
+          >
+            <div class="fitem text-sm hover:underline">Microsoft 365</div>
+            <div class="fitem text-sm hover:underline">Teams</div>
+            <div class="fitem text-sm hover:underline">Copilot</div>
+            <div class="fitem text-sm hover:underline">Windows</div>
+            <div class="fitem text-sm hover:underline">Surface</div>
+            <div class="fitem text-sm hover:underline">Xbox</div>
+            <div class="fitem text-sm hover:underline">Support</div>
+          </div>
+        </div>
+        <div class="cart text-center md:order-3 flex">
+          <div class="search hidden lg:block mr-6 text-sm hover:underline">All Microsoft</div>
+          <img
+            class="hidden md:block w-6 mx-5"
+            src="./image/search.svg"
+            alt=""
+          />
+
+          <div class="flex gap-2">
+            <img
+              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMTkuNWMwIC44MjktLjY3MiAxLjUtMS41IDEuNXMtMS41LS42NzEtMS41LTEuNWMwLS44MjguNjcyLTEuNSAxLjUtMS41czEuNS42NzIgMS41IDEuNXptMy41LTEuNWMtLjgyOCAwLTEuNS42NzEtMS41IDEuNXMuNjcyIDEuNSAxLjUgMS41IDEuNS0uNjcxIDEuNS0xLjVjMC0uODI4LS42NzItMS41LTEuNS0xLjV6bTEuMzM2LTVsMS45NzctN2gtMTYuODEzbDIuOTM4IDdoMTEuODk4em00Ljk2OS0xMGwtMy40MzIgMTJoLTEyLjU5N2wuODM5IDJoMTMuMjM5bDMuNDc0LTEyaDEuOTI5bC43NDMtMmgtNC4xOTV6Ii8+PC9zdmc+"
+              alt=""
+            />
+            <img
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xMiAwYzYuNjIzIDAgMTIgNS4zNzcgMTIgMTJzLTUuMzc3IDEyLTEyIDEyLTEyLTUuMzc3LTEyLTEyIDUuMzc3LTEyIDEyLTEyem04LjEyNyAxOS40MWMtLjI4Mi0uNDAxLS43NzItLjY1NC0xLjYyNC0uODUtMy44NDgtLjkwNi00LjA5Ny0xLjUwMS00LjM1Mi0yLjA1OS0uMjU5LS41NjUtLjE5LTEuMjMuMjA1LTEuOTc3IDEuNzI2LTMuMjU3IDIuMDktNi4wMjQgMS4wMjctNy43OS0uNjc0LTEuMTE5LTEuODc1LTEuNzM0LTMuMzgzLTEuNzM0LTEuNTIxIDAtMi43MzIuNjI2LTMuNDA5IDEuNzYzLTEuMDY2IDEuNzg5LS42OTMgNC41NDQgMS4wNDkgNy43NTcuNDAyLjc0Mi40NzYgMS40MDYuMjIgMS45NzQtLjI2NS41ODYtLjYxMSAxLjE5LTQuMzY1IDIuMDY2LS44NTIuMTk2LTEuMzQyLjQ0OS0xLjYyMy44NDggMi4wMTIgMi4yMDcgNC45MSAzLjU5MiA4LjEyOCAzLjU5MnM2LjExNS0xLjM4NSA4LjEyNy0zLjU5em0uNjUtLjc4MmMxLjM5NS0xLjg0NCAyLjIyMy00LjE0IDIuMjIzLTYuNjI4IDAtNi4wNzEtNC45MjktMTEtMTEtMTFzLTExIDQuOTI5LTExIDExYzAgMi40ODcuODI3IDQuNzgzIDIuMjIyIDYuNjI2LjQwOS0uNDUyIDEuMDQ5LS44MSAyLjA0OS0xLjA0MSAyLjAyNS0uNDYyIDMuMzc2LS44MzYgMy42NzgtMS41MDIuMTIyLS4yNzIuMDYxLS42MjgtLjE4OC0xLjA4Ny0xLjkxNy0zLjUzNS0yLjI4Mi02LjY0MS0xLjAzLTguNzQ1Ljg1My0xLjQzMSAyLjQwOC0yLjI1MSA0LjI2OS0yLjI1MSAxLjg0NSAwIDMuMzkxLjgwOCA0LjI0IDIuMjE4IDEuMjUxIDIuMDc5Ljg5NiA1LjE5NS0xIDguNzc0LS4yNDUuNDYzLS4zMDQuODIxLS4xNzkgMS4wOTQuMzA1LjY2OCAxLjY0NCAxLjAzOCAzLjY2NyAxLjQ5OSAxIC4yMyAxLjY0LjU5IDIuMDQ5IDEuMDQzeiIvPjwvc3ZnPg=="
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="slider flex flex-col md:flex-row bg-[#f2f2f2] mx-2">
+        <div class="left">
+          <img
+            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP2-859x540"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="right flex flex-col justify-center items-center md:items-baseline py-12"
+        >
+          <h1 class="text-2xl font-medium md:text-4xl mx-6 my-5">
+            Surface Pro 9
+          </h1>
+          <p class="w-3/4 mx-5 text-center md:text-left">
+            Tablet versatility and laptop power — all in one ultra-portable
+            device
+          </p>
+
+          <button
+            class="shopNow bg-black text-white md:bg-blue-500 px-4 py-2 my-5 font-bold"
+          >
+            Shop Now >
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="promo space-y-6 flex flex-col md:flex-row md:justify-center md:my-16 md:space-y-0"
+      >
+        <div class="item flex items-center mx-2 space-x-2 md:flex md:flex-col">
+          <img
+            class=""
+            src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Microsoft-365?wid=40&hei=40"
+            alt=""
+            width="40px"
+            height="40px"
+          />
+          <span
+            class="font-medium text-blue-700 underline text-lg cursor-pointer"
+            >Choose your Microsoft 365</span
+          >
+        </div>
+        <div class="item flex items-center mx-2 space-x-2 md:flex md:flex-col">
+          <img
+            class=""
+            src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Xbox-Games-Consoles?wid=40&hei=40"
+            alt=""
+            width="40px"
+            height="40px"
+          />
+          <span
+            class="font-medium text-blue-700 underline text-lg cursor-pointer"
+            >Shop Xbox</span
+          >
+        </div>
+        <div class="item flex items-center mx-2 space-x-2 md:flex md:flex-col">
+          <img
+            class=""
+            src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Microsoft-365?wid=40&hei=40"
+            alt=""
+            width="40px"
+            height="40px"
+          />
+          <span
+            class="font-medium text-blue-700 underline text-lg cursor-pointer"
+            >Get your Windows 11</span
+          >
+        </div>
+        <div class="item flex items-center mx-2 space-x-2 md:flex md:flex-col">
+          <img
+            class=""
+            src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Surface-Devices?wid=40&hei=40"
+            alt=""
+            width="40px"
+            height="40px"
+          />
+          <span
+            class="font-medium text-blue-700 underline text-lg cursor-pointer"
+            >Exploe Surface Devices</span
+          >
+        </div>
+      </div>
+
+      <div
+        class="specifiaction box-border grid grid-cols-1 lg:grid lg:grid-cols-4 sm:grid sm:grid-cols-2"
+      >
+        <div class="spec1 mx-2 my-6 rounded-2xl border cursor-pointer">
+          <div class="img">
+            <img
+              class="rounded-2xl rounded-b-none w-full"
+              src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Laptop-5-M1-Platinum-01-1?wid=406&hei=230&fit=crop"
+              alt=""
+            />
+          </div>
+          <div class="content space-x-6 h-52">
+            <p class="text-2xl font-semibold mx-6 my-2">Surface Laptop 5</p>
+            <p class="w-5/6">
+              Sophisticated style and multitasking speed powered by 12th Gen
+              Intel® Core, with Windows 11.
+            </p>
+          </div>
+          <button class="bg-blue-700 px-5 py-2 my-5 font-semibold text-white">
+            Learn more
+          </button>
+        </div>
+        <div class="spec1 mx-2 my-6 rounded-2xl border cursor-pointer">
+          <div class="img">
+            <img
+              class="rounded-2xl rounded-b-none w-full"
+              src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Surface-Laptop-Studio-01-CP?wid=406&hei=230&fit=crop"
+              alt=""
+            />
+          </div>
+          <div class="content space-x-6 h-52">
+            <p class="text-2xl font-semibold mx-6 my-2">
+              Surface Laptop Studio
+            </p>
+            <p class="w-5/6">
+              Flex your creative muscle on the most powerful Surface Laptop. Now
+              available with Windows 11.
+            </p>
+          </div>
+          <button class="bg-blue-700 px-5 py-2 my-5 font-semibold text-white">
+            Learn more
+          </button>
+        </div>
+        <div class="spec1 mx-2 my-6 rounded-2xl border cursor-pointer">
+          <div class="img">
+            <img
+              class="rounded-2xl rounded-b-none w-full"
+              src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSX-CP-Xbox-Series-X?wid=406&hei=230&fit=crop"
+              alt=""
+            />
+          </div>
+          <div class="content space-x-6 h-52">
+            <p class="text-2xl font-semibold mx-6 my-2">Shop Xbox Series X</p>
+            <p class="w-5/6">The fastest, most powerful Xbox ever.</p>
+          </div>
+          <button class="bg-blue-700 px-5 py-2 my-5 font-semibold text-white">
+            Learn more
+          </button>
+        </div>
+        <div class="spec1 mx-2 my-6 rounded-2xl border cursor-pointer">
+          <div class="img">
+            <img
+              class="rounded-2xl rounded-b-none w-full"
+              src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-365-Lifestyle-Sandstone-Icon-Toss?wid=406&hei=230&fit=crop"
+              alt=""
+            />
+          </div>
+          <div class="content space-x-6 h-52">
+            <p class="text-2xl font-semibold mx-6 my-2">
+              Maximise the everyday with Microsoft 365
+            </p>
+            <p class="w-5/6">
+              Get online protection, secure cloud storage and innovative apps
+              designed to fit your needs – all in one plan.
+            </p>
+          </div>
+          <button class="bg-blue-700 px-5 py-2 my-5 font-semibold text-white">
+            For one person
+          </button>
+        </div>
+      </div>
+
+      <div class="XbosSeries">
+        <div class="spec1 mx-2 my-6 border cursor-pointer lg:relative">
+          <div class="img">
+            <img
+              class="w-full h-96"
+              src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSS-Hero-Xbox-Series-S:VP2-859x540"
+              alt=""
+            />
+          </div>
+          <div class="content space-x-6 lg:absolute top-20 left-12">
+            <p class="text-2xl font-semibold mx-6 my-2">Xbos Series S</p>
+            <p class="w-5/6">Next-gen performance in the smallest Xbox ever</p>
+            <button class="bg-blue-700 px-5 py-2 my-5 font-semibold text-white">
+              Shop Xbos Series S
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="business">
+        <h1 class="font-medium text-3xl mx-4">For business</h1>
+        <div
+          class="main box-border grid grid-cols-1 lg:grid lg:grid-cols-4 sm:grid sm:grid-cols-2"
+        >
+          <div class="spec1 mx-2 my-6 border cursor-pointer">
+            <div class="img">
+              <img
+                class="w-full"
+                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Surf-CP-SurfaceFamilyForBusiness?wid=406&hei=230&fit=crop"
+                alt=""
+              />
+            </div>
+            <div class="content space-x-6 h-52">
+              <h3 class="text-2xl font-semibold mx-6 my-2">
+                Surface for Business
+              </h3>
+              <p class="w-5/6">
+                No matter what you do, there’s a Surface to help you do it.
+              </p>
+            </div>
+            <button class="bg-blue-700 px-5 py-2 my-5 font-semibold text-white">
+              Shop Now
+            </button>
+          </div>
+          <div class="spec1 mx-2 my-6 border cursor-pointer">
+            <div class="img">
+              <img
+                class="w-full"
+                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-CP-Microsoft-Teams-Commercial?wid=406&hei=230&fit=crop"
+                alt=""
+              />
+            </div>
+            <div class="content space-x-6 h-52">
+              <h3 class="text-2xl font-semibold mx-6 my-2">
+                Get Microsoft Teams for free
+              </h3>
+              <p class="w-5/6">
+                Online meetings, chat and shared cloud storage – all in one
+                place.
+              </p>
+            </div>
+            <button class="bg-blue-700 px-5 py-2 my-5 font-semibold text-white">
+              Sign up for free
+            </button>
+          </div>
+          <div class="spec1 mx-2 my-6 border cursor-pointer">
+            <div class="img">
+              <img
+                class="w-full"
+                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Windows-11-Business?wid=406&hei=230&fit=crop"
+                alt=""
+              />
+            </div>
+            <div class="content space-x-6 h-52">
+              <h3 class="text-2xl font-semibold mx-6 my-2">
+                Windows 11 for business
+              </h3>
+              <p class="w-5/6">
+                Designed for hybrid work. Powerful for employees. Consistent for
+                IT. Secure for all.
+              </p>
+            </div>
+            <button class="bg-blue-700 px-5 py-2 my-5 font-semibold text-white">
+              Learn More
+            </button>
+          </div>
+          <div class="spec1 mx-2 my-6 border cursor-pointer">
+            <div class="img">
+              <img
+                class="w-full"
+                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Azure-AI-Bloom?wid=406&hei=230&fit=crop"
+                alt=""
+              />
+            </div>
+            <div class="content space-x-6 h-52">
+              <h3 class="text-2xl font-semibold mx-6 my-2">
+                Join the era of AI
+              </h3>
+              <p class="w-5/6">
+                Create, communicate, and code with the latest Microsoft AI
+                solutions.
+              </p>
+            </div>
+            <button class="bg-blue-700 px-5 py-2 my-5 font-semibold text-white">
+              Explore AI solutions
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="facebook flex gap-6 my-28 mx-16 md:mx-0">
+        <div class="flex items-center">
+          <p class="font-medium text-lg mx-4 ">Follow Microsoft</p>
+        </div>
+        <div class="flex items-center">
+          <img
+            class="w-12 h-10"
+            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Facebook 2x?scl=1"
+            alt=""
+          />
+          <img
+            class="w-12 h-10"
+            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-MSCOM-X-64x64?scl=1"
+            alt=""
+          />
+          <img
+            class="w-12 h-10"
+            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/YouTube 2x?scl=1"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div
+        class="footer bg-[#f2f2f2] flex gap-10 md:flex justify-between px-8 py-10"
+      >
+        <div class="first flex flex-col">
+          <h1 class="text-[#828282] font-semibold">What's new</h1>
+          <a class="text-[#838383] text-xs my-2" href="">Games</a>
+          <a class="text-[#838383] text-xs my-2" href="">Surface Pro 9</a>
+          <a class="text-[#838383] text-xs my-2" href="">Surface Laptop 5</a>
+          <a class="text-[#838383] text-xs my-2" href="">Surface Laptop Go 2</a>
+          <a class="text-[#838383] text-xs my-2" href="">Microsoft 365</a>
+          <a class="text-[#838383] text-xs my-2" href="">Window 11 apps</a>
+        </div>
+        <div class="second flex flex-col">
+          <h1 class="text-[#828282] font-semibold">Microsoft Store</h1>
+          <a class="text-[#838383] text-xs my-2" href="">Account Profile</a>
+          <a class="text-[#838383] text-xs my-2" href="">Download Center</a>
+          <a class="text-[#838383] text-xs my-2" href=""
+            >Microsoft Store Support</a
+          >
+          <a class="text-[#838383] text-xs my-2" href="">Returns</a>
+          <a class="text-[#838383] text-xs my-2" href="">Order tracking</a>
+        </div>
+        <div class="third flex flex-col">
+          <h1 class="text-[#828282] font-semibold">Education</h1>
+          <a class="text-[#838383] text-xs my-2" href=""
+            >Microsoft in education</a
+          >
+          <a class="text-[#838383] text-xs my-2" href=""
+            >Devices for education</a
+          >
+          <a class="text-[#838383] text-xs my-2" href=""
+            >Microsoft Teams for Education</a
+          >
+          <a class="text-[#838383] text-xs my-2" href=""
+            >Microsoft 365 Education</a
+          >
+          <a class="text-[#838383] text-xs my-2" href="">Office Education</a>
+          <a class="text-[#838383] text-xs my-2" href="">Azure for students</a>
+          <a class="text-[#838383] text-xs my-2" href=""
+            >Deals for students and parents</a
+          >
+        </div>
+      </div>
+
+      <div class="footer2 flex justify-center my-10 cursor-pointer">
+        <div class="flex flex-wrap gap-10 mx-4">
+          <p class="text-[#838383]">Contact Microsoft</p>
+          <p class="text-[#838383]">Privacy</p>
+          <p class="text-[#838383]">Terms of use</p>
+          <p class="text-[#838383]">Trademarks</p>
+          <p class="text-[#838383]">About our ads © Microsoft 2024</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
